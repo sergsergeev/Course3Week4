@@ -1,21 +1,20 @@
 
-x_train and y_train - variables to read in the x_train and y_train tables
-subject_train - reading the subject_train table
+*x_train* and *y_train* - variables to read in the x_train and y_train tables
+*subject_train* - reading the subject_train table
 
-x_test, y_test, subject_test - variables to collect the test tables
+*x_test*, *y_test*, *subject_test* - variables to collect the test tables
 
-features - will contain the feature text file
+*features* - will contain the feature text file
 
-activity_labels - will contain the activity_labels text file
+*activity_labels* - will contain the activity_labels text file
 
-merge_train,  merge_test - using cbind to combine the tables
-allMerged - merge_train and merge_test merged
+*merge_train*,  *merge_test* - using cbind to combine the tables
+*allMerged* - merge_train and merge_test merged
 
-col_names - contain the names of all columns
+*col_names* - contain the names of all columns
 
-mean_and_sd - a vector for mean and standard deviation
+*mean_and_sd* - a vector for mean and standard deviation
 
-summary_activity_names - merged summary_mean_and_sd, activity_labels by='activity_Id' with all.x=TRUE
+*summary_activity_names* - merged *summary_mean_and_sd*, *activity_labels* by='activity_Id' with all.x=TRUE
 
-
-second_clean_set - created a clean set using aggregate function
+*second_clean_set* - created a clean set using aggregate function
